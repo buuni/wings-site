@@ -7,7 +7,7 @@ app.controller('indexController', function ($scope, $window, linkFactory, usSpin
 	 $scope.bonus = 20;
   }
 
-  $scope.futureDate = new Date('2017-06-06T06:00:00');
+  $scope.futureDate = new Date('2017-06-06T12:00:00');
 
   $scope.mediaXS = false;
   $scope.mediaSM = false;

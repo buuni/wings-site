@@ -85,39 +85,43 @@
       <div class="main-content-text">
         <p class="main-content-subtext">{{'A decentralized platform to create, join and manage projects' | translate}}</p>
         <div class="main-time" bs-time-counter date="futureDate" direction="'down'">
-          <div class="main-time__item">
-            <round-progress
-                    max="30"
-                    current="days">
-            </round-progress>
-            <span>{{days}}</span>
-            <p>{{'Days' | translate }}</p>
+          <div class="main-time__header">{{'Launch In' | translate}}</div>
+          <div class="main-time__text">{{'Wings launch forecasting version' | translate}}</div>
+          <div class="main-time__container">
+            <div class="main-time__item">
+              <round-progress
+                      max="30"
+                      current="days">
+              </round-progress>
+              <span>{{days}}</span>
+              <p>{{'Days' | translate }}</p>
+            </div>
+             <div class="main-time__item">
+               <round-progress
+                       max="24"
+                       current="hours">
+               </round-progress>
+               <span>{{hours}}</span>
+               <p>{{'Hours' | translate }}</p>
+             </div>
+             <div class="main-time__item">
+               <round-progress
+                       max="60"
+                       current="minutes">
+               </round-progress>
+               <span>{{minutes}}</span>
+               <p>{{'Minutes' | translate }}</p>
+             </div>
+             <div class="main-time__item">
+               <round-progress
+                       max="60"
+                       current="seconds">
+               </round-progress>
+               <span>{{seconds}}</span>
+               <p>{{'Seconds' | translate }}</p>
+             </div>
           </div>
-       <div class="main-time__item">
-         <round-progress
-                 max="24"
-                 current="hours">
-         </round-progress>
-         <span>{{hours}}</span>
-         <p>{{'Hours' | translate }}</p>
-       </div>
-       <div class="main-time__item">
-         <round-progress
-                 max="60"
-                 current="minutes">
-         </round-progress>
-         <span>{{minutes}}</span>
-         <p>{{'Minutes' | translate }}</p>
-       </div>
-       <div class="main-time__item">
-         <round-progress
-                 max="60"
-                 current="seconds">
-         </round-progress>
-         <span>{{seconds}}</span>
-         <p>{{'Seconds' | translate }}</p>
-       </div>
-     </div>
+         </div>
 
           <!--https://www.youtube.com/watch?v=9wvov6zXi54-->
 
