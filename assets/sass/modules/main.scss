@@ -7,6 +7,38 @@
 	background-size: 100% 100%;
 	position: relative;
 	overflow: hidden;
+	&-time {
+ 		display: flex;
+ 		width: 340px;
+ 		margin: 20px auto 0;
+ 		justify-content: space-between;
+ 		&__header {
+ 			font-family: Roboto;
+ 			font-size: 35px;
+ 			margin: 20px 0 25px;
+ 		}
+ 		&__item {
+ 			position: relative;
+ 			svg {
+ 				width: 75px!important;
+ 				height: 75px!important;
+ 			}
+ 			span {
+ 				font-family: Roboto;
+ 				font-size: 32px;
+ 				position: absolute;
+ 				top: 22px;
+ 				left: 19px;
+ 				width: 36px;
+				text-align: center;
+ 			}
+ 			p {
+ 				font-family: Roboto;
+ 				margin-top: 3px;
+				margin-bottom: 10px!important;
+ 			}
+ 		}
+ 	}
 	&-video {
 		clear: both;
 		margin-top: 35px;
@@ -315,4 +347,3 @@
 	padding: 10px 15px;
 	border-bottom: #efefef 1px solid;
 }
-

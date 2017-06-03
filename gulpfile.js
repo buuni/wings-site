@@ -43,15 +43,15 @@ gulp.task('concat-app', function () {
 
 gulp.task('concat', function() {
   return gulp.src([
-    'bower_components/jquery/dist/jquery.js',
+   'bower_components/jquery/dist/jquery.js',
 	 'bower_components/humanize-duration/humanize-duration.js',
 	 'bower_components/moment/min/moment.min.js',
 	 'bower_components/remodal/dist/remodal.js',
 	 'bower_components/spin.js/spin.js',
-    'bower_components/slick-carousel/slick/slick.js',
-    'bower_components/wow/dist/wow.js',
-    'bower_components/Tabslet/jquery.tabslet.js',
-    'bower_components/select2/dist/js/select2.full.js',
+   'bower_components/slick-carousel/slick/slick.js',
+   'bower_components/wow/dist/wow.js',
+   'bower_components/Tabslet/jquery.tabslet.js',
+   'bower_components/select2/dist/js/select2.full.js',
 	 'bower_components/angular/angular.min.js',
 	 'bower_components/angular-timer/dist/angular-timer.min.js',
 	 'bower_components/angular-translate/angular-translate.min.js',
@@ -64,9 +64,11 @@ gulp.task('concat', function() {
 	 'bower_components/fn-remodal/remodal.js',
 	 'bower_components/angular-spinner/angular-spinner.min.js',
 	 'bower_components/angular-animate/angular-animate.min.js',
-		'bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js',
-		'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js'
-  	])
+	 'bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js',
+	 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
+   'bower_components/angular-svg-round-progressbar/build/roundProgress.min.js',
+   'bower_components/betsol-ng-time-counter/dist/scripts/betsol-ng-time-counter.min.js'
+  ])
     .pipe(concat('production.js'))
     .pipe(gulp.dest('assets/js/'));
 });
@@ -77,7 +79,7 @@ gulp.task('compress', function() {
 	.pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist'));
 });
- 
+
 gulp.task('watch', function () {
 	gulp.watch('assets/sass/**/*.scss', gulpsync.sync(['clean-rev', 'sass', 'revision', 'revreplace']));
   gulp.watch('./assets/js/production.js', gulpsync.sync(['clean-rev', 'compress', 'revision', 'revreplace']));
