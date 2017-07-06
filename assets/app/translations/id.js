@@ -94,7 +94,7 @@ app.config(function ($translateProvider) {
 	 "Experienced developer with a focus on Internet of Things devices, high profile projects, and blockchain development. Pavel was one of the Crypti core developers and holds a graduate degree in Finance.": "Developer yang berpengalaman yg fokus pada perangkat Internet of Things, proyek yang berprofil tinggi dan pengembangan blockchain. Pavel dulunya merupakan salah satu developer inti Crypti dan memegang gelar sarjana di Perancis.",
 	 "Forum": "Forum",
 	 "Wings Stiftung © 2016. All Rights Reserved.": "Wings Stiftung © 2016. All Rights Reserved.",
-	 "Join our chat in Telegram or Slack": "Bergabung bersama obrolan kami di Telegram",
+	 "Join our chat in Telegram": "Bergabung bersama obrolan kami di Telegram",
 	 "Thanks for subscription!": "Terima kasih karna sudah berlangangan!",
 	 "Thanks! We sent you email to confirm subscription.": "Terima kasih! Kami telah mengirimkan anda email konfirmasi langangan.",
 	 "SUBSCRIBE TO GET": "AYOK LAKUKAN INI",
