@@ -109,7 +109,7 @@ app.config(function ($translateProvider) {
 	 "Developer with over 10 years of experience of software development, including 6 years of experience in the banking sector. Interested in machine learning, big data and blockchain technology. Alex has a bachelor's degree in Information systems.": "Desenvolvedor com mais de 10 anos de experiência em desenvolvimento de software, incluindo 6 anos de experiência no setor bancário. Interessado em aprendizagem de máquina, Big Data, e tecnologia blockchain. Alex tem um bacharelado em sistemas de informação.",
 	 "Forum": "Forum",
 	 "Wings Stiftung © 2016. All Rights Reserved.": "Wings Stiftung © 2016. Todos os Direitos Reservados.",
-	 "Join our chat in Telegram or Slack": "Junte-se ao nosso chat em Telegram / Slack",
+	 "Join our chat in Telegram": "Junte-se ao nosso chat em Telegram",
 	 "Thanks for subscription!": "Obrigado por ter inscrito!",
 	 "Thanks! We sent you email to confirm subscription.": "Obrigado! Enviamos um e-mail para confirmar a sua inscrição",
 	 "SUBSCRIBE TO GET": "PARTICIPAR",

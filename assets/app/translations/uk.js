@@ -100,7 +100,7 @@ app.config(function ($translateProvider) {
 	 "Nimrod is an inventor, app developer and crowd-funding rock-star. His first creation, Pressy, was a breakthrough success and consider to be one of the most successful Kickstarter campaigns ever. Since then Nimrod also invented and successfully funded Boogie Dice and helped many other projects hit their goal.": "Німрод винахідник, розробник додатків та суперзірка краудфандінгу. Його першиий винахід Pressy став одним з найуспішніших та напопулярніших на платформі Kickstarter за весь час ії існування. З того часу Німрод також створив та забезпечив фінансування Boogie Dice, допоміг багатьом іншим проектам досягти поставленої мети.",
 	 "Forum": "Форум",
 	 "Wings Stiftung © 2016. All Rights Reserved.": "Wings Stiftung © 2016. Всі права захищені.",
-	 "Join our chat in Telegram or Slack": "Приєднуйтесь до наших чатів у Telegram та Slack",
+	 "Join our chat in Telegram": "Приєднуйтесь до наших чатів у Telegram",
 	 "Thanks for subscription!": "Дякуємо за підписку!",
 	 "Join our chat!": "Приєднуйтесь до нашого чату!",
 	 "Thanks! We sent you email to confirm subscription.": "Дякуємо! Ми надіслали вам email для підтвердження підписки.",
